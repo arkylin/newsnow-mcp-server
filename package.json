@@ -15,7 +15,6 @@
     "url": "git+https://github.com/ourongxing/newsnow-mcp-server.git"
   },
   "license": "MIT",
-  "packageManager": "pnpm@10.9.0",
   "type": "module",
   "bin": {
     "newsnow-mcp-server": "dist/index.cjs"

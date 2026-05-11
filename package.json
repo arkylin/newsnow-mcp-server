@@ -24,13 +24,7 @@
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "bumpp": "^10.1.0",
-    "dotenv": "^16.5.0",
-    "fastmcp": "^1.23.0",
-    "ofetch": "^1.4.1",
-    "zod": "^3.24.3"
-  },
+  "dependencies": {},
   "scripts": {
     "dev": "tsup --watch --onSuccess \"node dist/index.mjs\"",
     "build": "tsup",
@@ -42,13 +36,18 @@
   "devDependencies": {
     "@ourongxing/eslint-config": "3.2.3-beta.6",
     "@types/node": "^22.15.2",
+    "bumpp": "^10.1.0",
+    "dotenv": "^16.5.0",
     "eslint": "^9.21.0",
+    "fastmcp": "^1.23.0",
+    "ofetch": "^1.4.1",
     "simple-git-hooks": "^2.11.1",
     "tsup": "^8.4.0",
     "tsx": "^4.19.3",
     "typescript": "^5.8.2",
     "typescript-eslint": "^8.25.0",
-    "unbuild": "^3.5.0"
+    "unbuild": "^3.5.0",
+    "zod": "^3.24.3"
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged"

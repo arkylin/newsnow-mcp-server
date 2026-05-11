@@ -64146,6 +64146,7 @@ var FastMCPSession = class extends FastMCPSessionEventEmitter {
       this.#capabilities.prompts = {};
     }
     this.#capabilities.logging = {};
+    this.#capabilities.completions = {};
     this.#server = new Server(
       { name, version: version2 },
       { capabilities: this.#capabilities, instructions }

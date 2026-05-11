@@ -1,5 +1,5 @@
 node_modules/
-dist/
+# dist/ is committed to enable npx github:user/repo usage
 .vercel
 .output
 .vinxi

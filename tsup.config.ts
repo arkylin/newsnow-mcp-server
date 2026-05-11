@@ -2,7 +2,7 @@ import { defineConfig } from "tsup"
 
 export default defineConfig({
   entry: ["src/index.ts"],
-  format: ["esm"],
+  format: ["cjs"],
   target: "node18",
   clean: true,
   sourcemap: false,
@@ -14,4 +14,5 @@ export default defineConfig({
   noExternal: ["fastmcp", "zod", "ofetch", "dotenv"],
   external: ["effect", "@valibot/to-json-schema"],
   outDir: "dist",
+  outExtension: () => ({ js: ".cjs" }),
 })
